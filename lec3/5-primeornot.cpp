@@ -8,9 +8,10 @@ int main(){
     int i =2;
     while(i<n){
         if(n%i==0){
-            cout<<n <<"is not a prime number";
+            cout<<n <<" is not a prime number";
             i++;
             break;
+
 
         }
         else{
