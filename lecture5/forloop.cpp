@@ -13,3 +13,6 @@ int main(){
 
 
 // break: current loop se bahar niklne ke liye... basically infinite loop se bachnne ke liye iska use krte hai..
+
+
+// continue: current iteration ko skip krke next iteration pe jane ke liye... basically agar hume kisi condition me kuch nahi krna hai to uss condition me continue ka use krte hai.. in short continue ke baad wala part unreachable ho gya
