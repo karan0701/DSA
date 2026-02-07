@@ -10,3 +10,6 @@ int main(){
         cout<<i<<" ";
     }
 }
+
+
+// break: current loop se bahar niklne ke liye... basically infinite loop se bachnne ke liye iska use krte hai..
