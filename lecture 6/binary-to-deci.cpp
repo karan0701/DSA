@@ -12,7 +12,7 @@ int main()
     {
         int lastdigit = n % 10; // last digit nikalne ke liye
         if (lastdigit == 1)
-        {
+        { 
             answer = answer + pow(2, i); // answer me 2 ki power i add krne ke liye
         }
         n = n / 10; // n ko 10 se divide krke last digit hata denge
