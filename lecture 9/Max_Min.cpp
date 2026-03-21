@@ -8,7 +8,7 @@ int getMax(int arr[], int size)
     int ans2 = INT_MIN;
     for (int i = 0; i < size; i++)
     {
-         ans2 = max(ans2, arr[i]);
+        ans2 = max(ans2, arr[i]);
         // if (arr[i] > max)
         // {
         //     max = arr[i];
@@ -36,7 +36,6 @@ int getMin(int arr[], int size)
     return ans1;
 }
 
-
 int main()
 {
     int size;
@@ -50,5 +49,4 @@ int main()
     }
     cout << "maximum value is: " << getMax(arr, size) << endl;
     cout << "minimum value is: " << getMin(arr, size) << endl;
-
 }
