@@ -4,12 +4,13 @@ using namespace std;
 
 int main(){
 
-    //declarinr an array
+    //declaring an array
     int number[15];
 
-    cout<<"value of index 14 is: "<<number[14]<<endl;
-    cout<<"value of index 7 is: "<<number[7]<<endl;
-    cout<<"value of index 0 is: "<<number[0]<<endl;
+    cout<<endl <<"Everything is fine"<< endl <<endl;
+    // cout<<"value of index 14 is: "<<number[14]<<endl;
+    // cout<<"value of index 7 is: "<<number[7]<<endl;
+    // cout<<"value of index 0 is: "<<number[0]<<endl;
     cout<<"value of index 20 is: "<<number[20]<<endl;  //here 20 shows undefined behaviour because we have declared the array of size 15 and we are trying to access the index which is out of bound.
     
 
